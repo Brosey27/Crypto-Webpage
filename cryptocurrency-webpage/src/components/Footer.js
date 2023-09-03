@@ -4,10 +4,10 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' id="contact">
             <div className='container'>
                 <div className='col col-1'>
-                    <h1>De<span className='primary'>Fi</span></h1>
+                    <h1>Re<span className='primary'>Fi</span></h1>
                 </div>
                 <div className='col'>
                     <h5>Support</h5>

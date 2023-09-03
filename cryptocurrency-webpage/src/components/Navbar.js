@@ -10,19 +10,19 @@ const handleClick = () => setClick(!click)
     return (
         <div className='header'>
             <div className='container'>
-                <h1>De<span className='primary'>Fi</span></h1>
+                <h1>Re<span className='primary'>Fi</span></h1>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
-                        <a href='/'>Home</a>
+                        <a href='#home'>Home</a>
                     </li>
                     <li>
-                        <a href='/'>Featured</a>
+                        <a href='#featured'>Featured</a>
                     </li>
                     <li>
-                        <a href='/'>Earn</a>
+                        <a href='#earn'>Earn</a>
                     </li>
                     <li>
-                        <a href='/'>Contact</a>
+                        <a href='#contact'>Contact</a>
                     </li>
                 </ul>
                 <div className='btn-group'>
